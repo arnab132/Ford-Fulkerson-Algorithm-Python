@@ -7,25 +7,25 @@ A term, flow network, is used to describe a network of vertices and edges with a
 We can visualize the understanding of the algorithm using a flow of liquid inside a network of pipes of different capacities. Each pipe has a certain capacity of liquid it can transfer at an instance. For this algorithm, we are going to find how much liquid can be flowed from the source to the sink at an instance using the network.
 
 ![image](https://user-images.githubusercontent.com/22562694/120909751-e1768600-c695-11eb-9dcb-b2123a016ceb.png)
+
 Flow network graph
 
 Terminologies Used:
 
-Augmenting Path
-It is the path available in a flow network.
+1.Augmenting Path: It is the path available in a flow network.
 
-Residual Graph
-It represents the flow network that has additional possible flow.
+2.Residual Graph: It represents the flow network that has additional possible flow.
 
-Residual Capacity
-It is the capacity of the edge after subtracting the flow from the maximum capacity.
+3.Residual Capacity: It is the capacity of the edge after subtracting the flow from the maximum capacity.
 
 How Ford-Fulkerson Algorithm works?
 
 The algorithm follows:
 
 1.Initialize the flow in all the edges to 0.
+
 2.While there is an augmenting path between the source and the sink, add this path to the flow.
+
 3.Update the residual graph.
 
 Note: We can also consider reverse-path if required because if we do not consider them, we may never find a maximum flow.
@@ -33,5 +33,7 @@ Note: We can also consider reverse-path if required because if we do not conside
 Ford-Fulkerson Applications are: 
 
 1.Water distribution pipeline
+
 2.Bipartite matching problem
+
 3.Circulation with demands
