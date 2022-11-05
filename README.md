@@ -4,7 +4,7 @@ Ford-Fulkerson algorithm is a Greedy approach for calculating the maximum possib
 
 A term, flow network, is used to describe a network of vertices and edges with a source (S) and a sink (T). Each vertex, except S and T, can receive and send an equal amount of stuff through it. S can only send and T can only receive stuff.
 
-We can Visualize the understanding of the algorithm using a flow of liquid inside a network of pipes of different capacities. Each pipe has a certain capacity of liquid it can transfer at an instance. For this Algorithm, we are going to find how much liquid can be flowed from the source to the sink at an instance using the network.
+We can visualize the understanding of the algorithm using a flow of liquid inside a network of pipes of different capacities. Each pipe has a certain capacity of liquid it can transfer at an instance. For this Algorithm, we are going to find how much liquid can be flowed from the source to the sink at an instance using the network.
 
 ![image](https://user-images.githubusercontent.com/22562694/120909751-e1768600-c695-11eb-9dcb-b2123a016ceb.png)
 
