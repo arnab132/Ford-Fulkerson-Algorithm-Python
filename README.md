@@ -8,7 +8,7 @@ We can visualize the understanding of the algorithm using a flow of liquid insid
 
 ![image](https://user-images.githubusercontent.com/22562694/120909751-e1768600-c695-11eb-9dcb-b2123a016ceb.png)
 
-Fig. 1: Flow network graph
+Fig. 1: Flow Network graph
 
 Terminologies Used:
 
