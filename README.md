@@ -1,6 +1,6 @@
 # Ford-Fulkerson-Algorithm-Python
 
-Ford-Fulkerson algorithm is a Greedy approach for calculating the maximum possible flow in a Network or a graph.
+Ford-Fulkerson algorithm is a greedy approach for calculating the maximum possible flow in a nNetwork or a graph.
 
 A term, flow network, is used to describe a network of vertices and edges with a source (S) and a sink (T) node. Each vertex, except S and T, can receive and send an equal amount of stuff through it. S can only send and T can only receive stuff.
 
